@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* INLINE-BLOCK */
+
+
+.container {
+    width: 1200px;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+
+
+.blue {
+    width: 400px;
+    height: 400px;
+    font-size: 30px;
+    background: aqua;
+    display: inline-block;
+    border: 2px solid red;
+}
+
+.box-green-1 {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.green {
+    width: 800px;
+    height: 200px;
+    background: chartreuse;
+    border: 2px solid red;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.box-green-2 {
+    display: inline-block;
+}
+
+.green-2 {
+    width: 400px;
+    height: 133px;
+    border: 2px solid red;
+    font-size: 30px;
+    background: chartreuse;   
+}
+
+.orange-box {
+    background: orange;
+    width: 1200px;
+    height: 400px;
+    font-size: 30px;
+}
+
+.orange-left {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    border: solid 2px red;
+    box-sizing: border-box;
+}
+
+.orange-right {
+    width: 800px;
+    height: 400px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.orange-10 {
+    height: 200px;
+    width: 800px;
+    border: solid 2px red;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.orange-11 {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border: solid 2px red;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.orange-right-footer {
+    width: 800px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.footer-right {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.orange-12, .orange-13 {
+    width: 400px;
+    height: 100px;
+    border: solid 2px red;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
